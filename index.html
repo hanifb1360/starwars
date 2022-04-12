@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star wars trivia</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <img id="logo" src="images/logo.png" alt="star wars logotype">
+
+    </header>
+
+    
+        
+        <main class="starWarsContent" id="main">
+            <div id="listSectionWrapper">
+                <section id="listSection">
+                <select name="selectCharacters" class="characterList" id="firstCharacterList">
+                    <option selected>Character 1</option>
+                    <option value="yoda">Yoda</option>
+                    <option value="luke_skywalker">Luke Skywalker</option>
+                    <option value="c-3po">C-3PO</option>
+                    <option value="Chewbacca">Chewbacca</option>
+                    <option value="darth_vader">Darth Vader</option>
+                    <option value="obi-wan_kenobi">Obi Wan Kenobi</option>
+                    <option value="r5-d4">R5-D4</option>
+                    <option value="boba_fett">Boba Fett</option>
+                </select>
+                <button type="submit" id="compareCharactersBtn">COMPARE</button>
+                
+                <select name="selectCharacters" class="characterList" id="secondCharacterList">
+                    <option selected>Character 2</option>
+                    <option value="yoda">Yoda</option>
+                    <option value="luke_skywalker">Luke Skywalker</option>
+                    <option value="c-3po">C-3PO</option>
+                    <option value="Chewbacca">Chewbacca</option>
+                    <option value="darth_vader">Darth Vader</option>
+                    <option value="obi-wan_kenobi">Obi Wan Kenobi</option>
+                    <option value="r5-d4">R5-D4</option>
+                    <option value="boba_fett">Boba Fett</option>
+                </select>
+            </section>
+            
+                
+            </div>
+            <section class="characterBox">
+                <div id="firstCharacterDisplay" class="characterDisplayBox">
+
+                </div>
+                <div id="secondCharacterDisplay" class="characterDisplayBox">
+
+                </div>
+            </section>
+            
+            
+            
+        </main>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
